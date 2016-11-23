@@ -9,7 +9,9 @@ p {
     border: 0;
     font: inherit;
     font-size: 100%;
-    vertical-align: baseline
+    vertical-align: baseline;
+    min-width: 200px;
+
 }
 
 @font-face {
