@@ -258,11 +258,10 @@ body {
     color: #00CED1;
     font-size: 35px;
     font-weight: 400;
-    border-bottom: 00CED1;
     text-decoration: underline;
     margin-top: 40px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .about h1 {
@@ -355,7 +354,7 @@ body {
 
 .work-container {
     height: 360px;
-    width: 50px;
+    width: 360px;
     display: table-cell;
     text-align: center;
     vertical-align: bottom;
@@ -409,7 +408,6 @@ body {
 .infosys-work {
     float: left;
     margin-left: 220px;
-    width: 360px;
 }
 
 .infosys-work .work-position,
@@ -427,7 +425,6 @@ body {
 .upe-work {
     float: right;
     margin-right: 220px;
-    width: 360px;
 }
 
 .upe-work .work-position,
@@ -437,8 +434,9 @@ body {
 
 .dressme-work {
     float: left;
-    margin-left: 475px;
-    width: 360px;
+    margin-left: 495px;
+    width: 330px;
+    height: 330px;
 }
 
 .dressme-work .work-background {
