@@ -280,6 +280,28 @@ body {
     padding-bottom: 70px;
 }
 
+.contact h1 {
+    padding-bottom: 30px;
+    color: #00CED1;
+    font-size: 35px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.contact p {
+    text-align: left;
+    padding: 10px 420px;
+    margin-left: 60px;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 330;
+}
+
+.contact h2 {
+    padding-bottom: 70px;
+}
+
 .link {
     border-bottom: 1px solid rgba(58, 71, 80, .4);
     color: #000000;
