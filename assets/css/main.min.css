@@ -409,7 +409,7 @@ body {
 .infosys-work {
     float: left;
     margin-left: 220px;
-    width: 30%;
+    width: 360px;
 }
 
 .infosys-work .work-position,
@@ -427,7 +427,7 @@ body {
 .upe-work {
     float: right;
     margin-right: 220px;
-    width: 30%
+    width: 360px;
 }
 
 .upe-work .work-position,
@@ -437,8 +437,8 @@ body {
 
 .dressme-work {
     float: left;
-    margin-left: 465px;
-    width: 30%
+    margin-left: 475px;
+    width: 360px;
 }
 
 .dressme-work .work-background {
