@@ -11,7 +11,6 @@ p {
     font-size: 100%;
     vertical-align: baseline;
     min-width: 200px;
-
 }
 
 @font-face {
@@ -327,7 +326,7 @@ body {
 }
 
 .link:hover {
-    border-bottom-color: #000000;
+    border-bottom-color: rgba(100, 255, 255, .4);
     border-bottom-width: medium;
 }
 
