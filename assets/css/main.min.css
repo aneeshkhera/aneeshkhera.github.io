@@ -42,11 +42,14 @@ p {
     src: url(../fonts/Circular-Black.otf)
 }
 
+html{
+    font-size: 100%;
+}
 
 body {
     background-color: #F5FFFA; /*mint*/
     font-family: Circular, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 1em;
     font-weight: 300;
     line-height: 1.4
 }
@@ -142,7 +145,7 @@ body {
 
 .general {
     text-align: left;
-    position: absolute;
+    position: relative;
     margin-top: 80px;
     margin-left: 300px;
     margin-right: 300px;
@@ -172,6 +175,7 @@ body {
     margin-top: 8px;
     margin-right: 20px;
     transition: 100ms;
+    position: relative;
 }
 
 .githubsm-icon img {
@@ -193,6 +197,7 @@ body {
     margin-top: 8px;
     margin-right: 20px;
     transition: 100ms;
+    position: relative;
 }
 
 .linkedinsm-icon img {
@@ -214,6 +219,7 @@ body {
     margin-top: 8px;
     margin-right: 130px;
     transition: 100ms;
+    position: relative;
 }
 
 .resume-icon img {
@@ -235,6 +241,7 @@ body {
     margin-top: 8px;
     margin-right: 20px;
     transition: 100ms;
+    position: relative;
 }
 
 .mail-icon img {
@@ -253,7 +260,7 @@ body {
     font-weight: 400;
     border-bottom: 00CED1;
     text-decoration: underline;
-    margin-top: 300px;
+    margin-top: 40px;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -280,6 +287,10 @@ body {
     padding-bottom: 70px;
 }
 
+.contact {
+    position: relative;
+}
+
 .contact h1 {
     padding-bottom: 30px;
     color: #00CED1;
@@ -291,8 +302,8 @@ body {
 
 .contact p {
     text-align: left;
-    padding: 10px 420px;
-    margin-left: 60px;
+    padding: 10px 275px;
+    margin-left: 140px;
     font-size: 20px;
     line-height: 1.6;
     font-weight: 330;
@@ -303,7 +314,7 @@ body {
 }
 
 .big {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
 }
 
