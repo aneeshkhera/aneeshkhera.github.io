@@ -324,14 +324,21 @@ body {
 .link--arrow:after {
     content: "\f18e";
     font-family: FontAwesome;
-    font-size: 14px;
+    font-size: 15px;
+    margin-left: 7px
+}
+
+.link--github:after {
+    content: "\f09b";
+    font-family: FontAwesome;
+    font-size: 15px;
     margin-left: 7px
 }
 
 .link--mail:after {
     content: "\f1d8";
     font-family: FontAwesome;
-    font-size: 14px;
+    font-size: 15px;
     margin-left: 7px
 }       
 
