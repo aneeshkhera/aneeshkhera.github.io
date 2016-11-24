@@ -653,5 +653,16 @@ img.contact {
         font-weight: 360;
         text-align: center;
     }
+
+    .head {
+        color: #00CED1;
+        min-height: 60px;
+        height: 60px;
+        position: relative;
+        z-index: 15;
+        display: block;
+        margin-top: 5px;
+        max-width: 1000px;
+    }   
 }
 
