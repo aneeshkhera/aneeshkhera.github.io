@@ -529,6 +529,7 @@ img.contact {
     }
 
     .upe-work {
+        float: left;
         margin: 20px 0;
         margin-left: auto;
         margin-right: auto;
@@ -651,36 +652,6 @@ img.contact {
         font-size: 16px;
         font-weight: 360;
         text-align: center;
-    }
-
-    .infosys-work {
-        margin: 20px 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .upe-work {
-        margin: 20px 0;
-        float: left;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .dressme-work {
-        margin: 20px 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .contact p {
-        text-align: left;
-        padding: 10px 0;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 20px;
-        line-height: 1.6;
-        font-weight: 330;
-        word-wrap: break-word;
     }
 }
 
