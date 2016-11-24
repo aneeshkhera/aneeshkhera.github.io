@@ -661,6 +661,7 @@ img.contact {
 
     .upe-work {
         margin: 20px 0;
+        float: left;
         margin-left: auto;
         margin-right: auto;
     }
@@ -672,16 +673,14 @@ img.contact {
     }
 
     .contact p {
-        text-align: center;
+        text-align: left;
         padding: 10px 0;
         margin-left: auto;
         margin-right: auto;
-        width: 500px; 
         font-size: 20px;
         line-height: 1.6;
         font-weight: 330;
         word-wrap: break-word;
     }
-
 }
 
