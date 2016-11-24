@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded',function(event){
      if (typeof descriptions[i] == 'undefined'){
         setTimeout(function() {
           StartTextAnimation(0);
-      }, 1000);
+      }, 800);
      }
      // check if descriptions[i] exists
     if (descriptions[i] != null && i < descriptions[i].length) {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded',function(event){
           document.querySelector("h1").innerHTML = text.substring(0, j-1) + '<span id="blinker"></span>';
           setTimeout(function() {
               backspace(text, j-1);
-          }, 80);
+          }, 60);
       } else {
           setTimeout(4000);
       }
