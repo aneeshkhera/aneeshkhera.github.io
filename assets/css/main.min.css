@@ -672,11 +672,11 @@ body {
         margin-top: 0;
     }
 
-        .head p {
+    .head p {
         display: inline-block;
         margin-left: auto;
         position: relative;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 400;
     }
 
@@ -685,7 +685,7 @@ body {
         margin: 0;
         display: inline-block;
         position: relative;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 100;
     }
 
