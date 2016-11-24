@@ -111,7 +111,7 @@ body {
     color: #00CED1;
     padding: 5px 20px;
     position: relative;
-    z-index: 1;
+    z-index: 15;
     display: block;
     margin-top: 80px;
     margin-left: auto;
@@ -176,6 +176,8 @@ body {
     opacity: .6;
     height: 50px;
     width: 50px;
+    margin: 0 20px;
+    margin-top: 8px;
     transition: 100ms;
     position: relative;
 }
@@ -192,9 +194,11 @@ body {
 
 .linkedinsm-icon {
     display: inline-block;
-    height: 50px;
     opacity: .6;
+    height: 50px;
     width: 50px;
+    margin: 0 20px;
+    margin-top: 8px;
     transition: 100ms;
     position: relative;
 }
@@ -211,9 +215,11 @@ body {
 
 .resume-icon {
     display: inline-block;
-    height: 50px;
     opacity: .6;
+    height: 50px; 
     width: 50px;
+    margin: 0 20px;
+    margin-top: 8px;
     transition: 100ms;
     position: relative;
 }
@@ -230,9 +236,11 @@ body {
 
 .mail-icon {
     display: inline-block;
-    height: 50px;
     opacity: .6;
+    height: 50px;
     width: 50px;
+    margin: 0 20px;
+    margin-top: 8px;
     transition: 100ms;
     position: relative;
 }
@@ -528,54 +536,6 @@ body {
         line-height: 1.6;
         font-weight: 330;
     }
-
-    /*.githubsm-icon {
-        display: inline-block;
-        float: right;
-        height: 50px;
-        opacity: .6;
-        width: 50px;
-        margin-top: 30px;
-        margin-right: 20px;
-        transition: 100ms;
-        position: relative;
-    }
-
-    .linkedinsm-icon {
-        display: inline-block;
-        float: right;
-        height: 50px;
-        opacity: .6;
-        width: 50px;
-        margin-top: 30px;
-        margin-right: 20px;
-        transition: 100ms;
-        position: relative;
-    }
-
-    .resume-icon {
-        display: inline-block;
-        float: right;
-        height: 50px;
-        opacity: .6;
-        width: 50px;
-        margin-top: 30px;
-        margin-right: 130px;
-        transition: 100ms;
-        position: relative;
-    }
-
-    .mail-icon {
-        display: inline-block;
-        float: right;
-        height: 50px;
-        opacity: .6;
-        width: 50px;
-        margin-top: 30px;
-        margin-right: 20px;
-        transition: 100ms;
-        position: absolute;
-    }*/
 }
 
 @media (max-width: 360px) { /*for mobile*/
@@ -617,7 +577,7 @@ body {
 
     .head {
         position: relative;
-        z-index: 1;
+        z-index: 15;
         display: block;
         margin-top: 0;
     }
@@ -638,16 +598,15 @@ body {
         font-size: 25px;
         font-weight: 100;
     }
+}
 
-    #name:before {
-        content: "aneesh";
-    }
-
+@media (max-width: 420px) {
     .githubsm-icon {
         display: inline-block;
         opacity: .6;
         height: 50px;
         width: 50px;
+        margin: 0 10px;
         margin-top: 8px;
         transition: 100ms;
         position: relative;
@@ -658,6 +617,7 @@ body {
         height: 50px;
         opacity: .6;
         width: 50px;
+        margin: 0 10px;
         margin-top: 8px;
         transition: 100ms;
         position: relative;
@@ -668,7 +628,7 @@ body {
         height: 50px;
         opacity: .6;
         width: 50px;
-        margin: 0;
+        margin: 0 10px;
         margin-top: 8px;
         transition: 100ms;
         position: relative;
@@ -679,7 +639,7 @@ body {
         height: 50px;
         opacity: .6;
         width: 50px;
-        margin: 0;
+        margin: 0 10px;
         margin-top: 8px;
         transition: 100ms;
         position: relative;
