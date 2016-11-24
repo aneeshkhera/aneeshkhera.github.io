@@ -102,22 +102,33 @@ body {
 }
 
 .head {
-    color: #00CED1;
-    min-height: 60px;
+    /*color: #00CED1;
     height: 60px;
     padding: 5px 20px;
     position: relative;
     z-index: 15;
     top: 20px;
     display: block;
-    margin-top: 25px;
+    margin-top: 55px;
+    max-width: 1000px;*/
+    color: #00CED1;
+    padding: 5px 20px;
+    position: relative;
+    z-index: 15;
+    display: block;
+    margin-top: 100px;
     max-width: 1000px;
 }
 
 .head p {
-    display: inline-block;
+    /*display: inline-block;
     top: 50%;
     transform: translateY(-50%);
+    margin-left: auto;
+    position: relative;
+    font-size: 40px;
+    font-weight: 400;*/
+    display: inline-block;
     margin-left: auto;
     position: relative;
     font-size: 40px;
@@ -125,12 +136,19 @@ body {
 }
 
 .head h1 {
-    color: black;
+    /*color: black;
     margin: 0;
     display: inline-block;
     top: 50%;
     margin-left: 3px;
     transform: translateY(-50%);
+    position: relative;
+    font-size: 40px;
+    font-weight: 100;*/
+    color: black;
+    margin: 0;
+    display: inline-block;
+    margin-left: 3px;
     position: relative;
     font-size: 40px;
     font-weight: 100;
@@ -200,10 +218,19 @@ img.contact {
 
 
 .githubsm-icon {
-    display: inline-block;
+    /*display: inline-block;
     float: right;
     height: 50px;
     opacity: .6;
+    width: 50px;
+    margin-top: 8px;
+    margin-right: 20px;
+    transition: 100ms;
+    position: relative;*/
+    display: inline-block;
+    float: right;
+    opacity: .6;
+    height: 50px;
     width: 50px;
     margin-top: 8px;
     margin-right: 20px;
@@ -655,15 +682,10 @@ img.contact {
     }
 
     .head {
-        color: #00CED1;
-        min-height: 60px;
-        height: 60px;
-        padding: 0;
         position: relative;
         z-index: 15;
-        top: 0;
         display: block;
-        margin-top: 5px;
+        margin-top: 0;
     }
 }
 
