@@ -337,10 +337,7 @@ img.contact {
 
 .contact p {
     text-align: center;
-    /*padding: 10px 275px;
-    margin-left: 180px;*/
     padding: 10px 0;
-    /*padding-left: 70px;*/
     margin-left: auto;
     margin-right: auto;
     width: 500px; 
@@ -510,11 +507,9 @@ img.contact {
 .work--hover-white-text:hover .work-title {
     color: #fff
 }
-
 .work--hover-white-text:hover .work-position {
     color: rgba(255, 255, 255, .8)
 }
-
 .work--hover-white-text:hover .link {
     color: #fff;
     border-bottom-color: rgba(100, 255, 255, .4);
@@ -657,5 +652,36 @@ img.contact {
         font-weight: 360;
         text-align: center;
     }
+
+    .infosys-work {
+        margin: 20px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .upe-work {
+        margin: 20px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dressme-work {
+        margin: 20px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact p {
+        text-align: center;
+        padding: 10px 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px; 
+        font-size: 20px;
+        line-height: 1.6;
+        font-weight: 330;
+        word-wrap: break-word;
+    }
+
 }
 
