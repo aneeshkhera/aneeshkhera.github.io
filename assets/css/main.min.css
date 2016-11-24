@@ -11,7 +11,7 @@ p {
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
-    overflow-x:hidden;
+    overflow-x:hidden; /* removes horizontal scrolling */
 }
 
 @font-face {
@@ -108,19 +108,10 @@ body {
 }
 
 .head {
-    /*color: #00CED1;
-    padding: 5px 20px;
-    position: relative;
-    z-index: 15;
-    display: block;
-    margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1000px;*/
     color: #00CED1;
     padding: 5px 20px;
     position: relative;
-    z-index: 15;
+    z-index: 1;
     display: block;
     margin-top: 80px;
     margin-left: auto;
@@ -181,21 +172,10 @@ body {
 }
 
 .githubsm-icon {
-    /*display: inline-block;
-    float: right;
-    height: 50px;
-    opacity: .6;
-    width: 50px;
-    margin-top: 8px;
-    margin-right: 20px;
-    transition: 100ms;
-    position: relative;*/
     display: inline-block;
     opacity: .6;
     height: 50px;
     width: 50px;
-    margin: 0 20px;
-    margin-top: 8px;
     transition: 100ms;
     position: relative;
 }
@@ -211,21 +191,10 @@ body {
 }
 
 .linkedinsm-icon {
-    /*display: inline-block;
-    float: right;
-    height: 50px;
-    opacity: .6;
-    width: 50px;
-    margin-top: 8px;
-    margin-right: 20px;
-    transition: 100ms;
-    position: relative;*/
     display: inline-block;
     height: 50px;
     opacity: .6;
     width: 50px;
-    margin: 0 20px;
-    margin-top: 8px;
     transition: 100ms;
     position: relative;
 }
@@ -241,20 +210,10 @@ body {
 }
 
 .resume-icon {
-    /*display: inline-block;
-    float: right;
-    height: 50px;
-    opacity: .6;
-    width: 50px;
-    margin-top: 8px;
-    transition: 100ms;
-    position: relative;*/
     display: inline-block;
     height: 50px;
     opacity: .6;
     width: 50px;
-    margin: 0 20px;
-    margin-top: 8px;
     transition: 100ms;
     position: relative;
 }
@@ -270,21 +229,10 @@ body {
 }
 
 .mail-icon {
-    /*display: inline-block;
-    float: right;
-    height: 50px;
-    opacity: .6;
-    width: 50px;
-    margin-top: 8px;
-    margin-right: 20px;
-    transition: 100ms;
-    position: relative;*/
     display: inline-block;
     height: 50px;
     opacity: .6;
     width: 50px;
-    margin: 0 20px;
-    margin-top: 8px;
     transition: 100ms;
     position: relative;
 }
@@ -669,7 +617,7 @@ body {
 
     .head {
         position: relative;
-        z-index: 15;
+        z-index: 1;
         display: block;
         margin-top: 0;
     }
@@ -693,6 +641,48 @@ body {
 
     #name:before {
         content: "aneesh";
+    }
+
+    .githubsm-icon {
+        display: inline-block;
+        opacity: .6;
+        height: 50px;
+        width: 50px;
+        margin-top: 8px;
+        transition: 100ms;
+        position: relative;
+    }
+
+    .linkedinsm-icon {
+        display: inline-block;
+        height: 50px;
+        opacity: .6;
+        width: 50px;
+        margin-top: 8px;
+        transition: 100ms;
+        position: relative;
+    }
+
+    .resume-icon {
+        display: inline-block;
+        height: 50px;
+        opacity: .6;
+        width: 50px;
+        margin: 0;
+        margin-top: 8px;
+        transition: 100ms;
+        position: relative;
+    }
+
+    .mail-icon {
+        display: inline-block;
+        height: 50px;
+        opacity: .6;
+        width: 50px;
+        margin: 0;
+        margin-top: 8px;
+        transition: 100ms;
+        position: relative;
     }
 }
 
