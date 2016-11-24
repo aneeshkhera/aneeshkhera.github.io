@@ -1,5 +1,6 @@
 body,
 div,
+html,
 h1,
 h2,
 h3,
@@ -10,6 +11,7 @@ p {
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
+    overflow-x:hidden;
 }
 
 @font-face {
