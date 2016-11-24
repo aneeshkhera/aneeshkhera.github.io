@@ -493,6 +493,33 @@ img.contact {
     transition: 300ms
 }
 
+.work-container:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    border: 8px inset #00CED1;
+}
+
+.work-container:hover .work-background {
+    opacity: 1
+}
+
+.work--hover-white-text:hover .work-description,
+.work--hover-white-text:hover .work-title {
+    color: #fff
+}
+
+.work--hover-white-text:hover .work-position {
+    color: rgba(255, 255, 255, .8)
+}
+
+.work--hover-white-text:hover .link {
+    color: #fff;
+    border-bottom-color: rgba(100, 255, 255, .4);
+}
+
 @media (max-width: 800px) {
     .all-work {
         width: 360px;
@@ -518,6 +545,8 @@ img.contact {
         margin-right: auto;
     }
 }
+
+
 
 @media (max-width:800px) {
     /*body {
@@ -592,26 +621,41 @@ img.contact {
     }*/
 }
 
-.work-container:hover {
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    -o-transform: scale(1.05);
-    transform: scale(1.05);
-    border: 8px inset #00CED1;
-}
-.work-container:hover .work-background {
-    opacity: 1
-}
-.work--hover-white-text:hover .work-description,
-.work--hover-white-text:hover .work-title {
-    color: #fff
-}
-.work--hover-white-text:hover .work-position {
-    color: rgba(255, 255, 255, .8)
-}
-.work--hover-white-text:hover .link {
-    color: #fff;
-    border-bottom-color: rgba(100, 255, 255, .4);
+@media (max-width: 360px) {
+    .work-container {
+        height: 300px;
+        width: 300px;
+        display: table-cell;
+        text-align: center;
+        vertical-align: bottom;
+        border-radius: 50%; /* may require vendor prefixes */
+        transition: 150ms;
+        border: 8px outset #00CED1;
+        padding: 40px 20px;
+        position: relative;
+        transition: 150ms;
+        margin: 20px 0;
+    }
+
+    .work-title {
+        color: #000000;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .work-position {
+        color: #000000;
+        font-size: 19px;
+        font-weight: 400
+    }
+
+    .work-description {
+        color: #000000;
+        margin: 20px 0;
+        margin-bottom: 30px;
+        font-size: 16px;
+        font-weight: 360;
+        text-align: center;
+    }
 }
 
