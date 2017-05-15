@@ -1,85 +1,118 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Aneesh Khera</title>
+    <title>aneesh khera</title>
+
     <meta name="author" content="Aneesh Khera">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/main.min.css" media="all">
-    <link rel="stylesheet" href="assets/css/custom-styles.css" media="all">
-    <rel="stylesheet" link href="https://cdn.rawgit.com/mli6/mli6.github.io/master/hover.css" media="all">
-
-    <!-- JS -->
-    <script src="assets/js/main.js"></script>
-
-    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/css/main.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css"> 
-    
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="/assets/icons/favicon.png">
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">  
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">
 
-    <!--CDN for fontawesome icons-->
-    <script src="https://use.fontawesome.com/caff10cf89.js"></script>
+    <link rel="shortcut icon" href="assets/images/favicon.png">
 
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-XXXXX-Y', 'auto');
-      ga('send', 'pageview');
-    </script>
+    <script src="assets/js/head.js"></script>
+    <script src="https://use.fontawesome.com/caff10cf89.js"></script> <!--CDN for fontawesome icons-->
 
 
   </head>
-
-
   <body>
-
-    <div class="dropdown">
-      <img src="assets/icons/menu-icon.svg" class="menu-icon" class="fade-quick" onclick="toggleMenu()"></img>
-
-      <div class="dropdown-content fade1">
-        <a href="index.html" class="rightShift">home</a>
-        <a href="about.html" class="rightShift">about</a>
-        <a href="work.html" class="rightShift">work</a>
-        <a href="contact.html" class="rightShift">contact</a>
-      </div>
-    </div>
-
     <div class = "wrap">
-      
-        <div class="head fade-quick">Hi, I'm Aneesh
-          <span class="my-face fade-face">
-            <img id = "profile-image" src = "assets/images/me.jpg">
-          </span>
+      <div class = "wrap section1">
+        <div class="head">
+            <p><span id="name">:</span></p>
+            <h1></h1>
         </div>
 
-        <div class="icons">
-            <a href="mailto:aneesh.khera@berkeley.edu?" class="email-icon">
-              <img src="assets/icons/email-icon.png" alt="email" class="fade-quick">
+          <div class="icons">
+
+            <a href="mailto:aneesh.khera@berkeley.edu?" class="mail-icon">
+              <img src="assets/images/icons/mail-icon.png" alt="email">
             </a>
-            <a href="https://github.com/kapleesh" target="_blank" class="github-icon">
-                <img src="assets/icons/github-icon.png" alt="github" class="fade-github">
+            <a href="https://github.com/kapleesh" target="_blank" class="githubsm-icon">
+                <img src="assets/images/icons/github-icon.png" alt="github">
             </a>
-            <a href="https://www.linkedin.com/in/aneeshkhera" target="_blank" class="linkedin-icon">
-                  <img src="assets/icons/linkedin-icon.png" alt="linkedin" class="fade-linkedin">
+            <a href="https://www.linkedin.com/in/aneeshkhera" target="_blank" class="linkedinsm-icon">
+                  <img src="assets/images/icons/linkedin-icon.png" alt="linkedin">
             </a>
             <a href="assets/Resume Aneesh Khera.pdf" target="_blank" class="resume-icon">
-                <img src="assets/icons/resume-icon.png" alt="resume" class = "fade-resume">
+                <img src="assets/images/icons/resume-icon.png" alt="resume">
             </a> 
+            
           </div>
-      
+
+        </div>
+
+
+        <div class=general>
+          <p>I'm an undergraduate at UC Berkeley, majoring in computer science. I have a deep interest in building elegant software and using innovative technologies to create impactful products.
+          </p>
+          <!--I'm a backend developer, studying computer science at UC Berkeley. I strive to create beautiful products with well-designed architecture. I'm currently looking for Summer 2018 internship opportunities.-->
+        </div>
+
+      </div>
+
+
+        <div class = "work">
+          <h1>work</h1>
+        </div>
+
+
+  <div class="all-work">
+        <div class="work-container infosys-work work--hover-white-text">
+          <div class="work-background"></div>
+          <h1 class="h3 work-title">Infosys</h1>
+          <h2 class="h3 work-position">Software Engineering Intern</h2>
+          <p class="work-description">Developed the backend of an optimization engine in order to efficiently process factory locomotive repair</p>
+          <a href="mailto:aneesh.khera@berkeley.edu?subject=Infosys%20project" class="link link--mail">email to learn more</a>
+        </div>
+
+        <div class="work-container upe-work work--hover-white-text">
+          <div class="work-background"></div>
+          <h1 class="h3 work-title">Upsilon Pi Epsilon</h1>
+          <h2 class="h3 work-position">Web Developer</h2>
+          <p class="work-description">Helped maintain and improve team website; Developed a past events feature to help members find recruiter info</p>
+          <a href="http://upe.cs.berkeley.edu/" target="_blank" class="link link--arrow">see the website</a>
+        </div>
+
+        <div class="work-container dressme-work work--hover-white-text">
+          <div class="work-background"></div>
+            <h1 class="h3 work-title">DressMe</h1>
+            <h2 class="h3 work-position">Full Stack Developer</h2>
+            <p class="work-description">A web application that checks the weather, your wardrobe, and your google calendar to help you pick out tomorrow's outfits today</p>
+            <a href="https://github.com/kapleesh/dressme" target="_blank" class="link link--github">project details</a>
+          </div>
+        </div>
+
+
+
+      <div class = "about">
+          <h1>about</h1>
+          <p>My core interests involve algorithms, backend engineering, and API development. In the past, I've worked on supply chain optimization at <a class="link" href="https://www.infosys.com/" target="_blank">Infosys</a> and data analysis at the USC Keck School of Medicine.</p>
+
+          <p>At UC Berkeley, I'm a Project Developer at <a class="link" href="http://codebase.club/" target="_blank">CodeBase</a>, a technical consulting club where we build software solutions for Bay Area startups. This semester, I'm working with Ongo to integrate health fitness data and interactive tutorials across the Amazon Alexa platform. For a little more detail, check out my <a href="assets/Resume Aneesh Khera.pdf" target="_blank" class="link">resume</a>.</p>
+
+           <p>In my free time, I enjoy playing ball, exploring downtown San Francisco, and hugging cute dogs.</p>
+           <h2></h2>
+      </div>
+
+
+      <div class = "contact">
+          <h1>contact</h1>
+          <p class = "big">aneesh.khera@berkeley.edu</p>
+          <p class = "big">(626) 802 - 8029</p>
+          <!--<p><span>email: &nbsp &nbsp </span><span class = "big">aneesh.khera@berkeley.edu</span></p>
+          <p><span>phone: &nbsp </span><span class = "big">(626) 802 - 8029</span></p>-->
+           <h2></h2>
+      </div>
+
     </div>
-
-
-  </div>
 
 
 
