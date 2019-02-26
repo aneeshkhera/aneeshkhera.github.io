@@ -525,6 +525,10 @@ body {
     background: rgba(0, 255, 0, .6)
 }
 
+.angela-link:after {
+    background: rgba(236, 255, 51, .6)
+}
+
 .codebase-link:after {
     background: rgba(65, 105, 225, .6)
 }
